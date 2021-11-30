@@ -1,14 +1,14 @@
 USE [TestUsers]
 GO
 
-declare @userId int, @address nvarchar(50), @placeId int;
+declare @userId int, @lastUserId int, @address nvarchar(50), @placeId int;
 
 set @userId = 0;
 
 WHILE @userId > -1
 BEGIN
 
-	set @userId = 0;
+	set @lastUserId = @userId;
 	set @address = '';
 	set @placeId = 0;
 
@@ -18,7 +18,7 @@ BEGIN
 	from users 
 	where users.id > @userId;
 
-	if @userId < 1
+	if @userId < 1 or @userId - @lastUserId < 1
 		break;
 
 	select @placeId = id

@@ -19,6 +19,24 @@
     </LogicalFolder>
     <LogicalFolder Name="Запросы" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Check.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DOSTZAL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DOSTZAL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Check.sql</FullPath>
+        </FileNode>
+        <FileNode Name="deleteTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DOSTZAL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DOSTZAL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>deleteTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LoadPlaces.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DOSTZAL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DOSTZAL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LoadPlaces.sql</FullPath>
+        </FileNode>
         <FileNode Name="ReloadUserAddress.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DOSTZAL:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DOSTZAL</AssociatedConnSrvName>
