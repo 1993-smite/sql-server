@@ -31,6 +31,12 @@
           <AssociatedConnUserName />
           <FullPath>deleteTable.sql</FullPath>
         </FileNode>
+        <FileNode Name="ForEach.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DOSTZAL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DOSTZAL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ForEach.sql</FullPath>
+        </FileNode>
         <FileNode Name="LoadPlaces.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DOSTZAL:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DOSTZAL</AssociatedConnSrvName>
